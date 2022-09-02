@@ -24,6 +24,14 @@
     -o-transform: translateX(100%);
 }
 
+.style-switcher.open {
+    transform: translateX(-25px);
+    -webkit-transform: translateX(-25px);
+    -moz-transform: translateX(-25px);
+    -ms-transform: translateX(-25px);
+    -o-transform: translateX(-25px);
+}
+
 .style-switcher .s-icon {
     position: absolute;
     height: 40px;
